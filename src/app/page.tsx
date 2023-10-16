@@ -11,11 +11,16 @@ export default function Home() {
       <p className="text-sm font-semibold text-gray-700">
         Quilleans
       </p>
-
+      </div>
       
+      <h1 className="max-w-4xl font-bold text-5xl md:text-6xl lg:text-7xl  ">
+        Chat With Your <span className="text-blue-600">Documents </span>
 
-     </div>
-    </div>
+
+      </h1>
+      </div>
+    
+  
   </MaxWithWrapper> 
 
   
