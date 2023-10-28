@@ -1,0 +1,49 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+  // If you want to use Prisma Migrate, you will need to manually create a shadow database
+  // https://neon.tech/docs/guides/prisma-migrate#configure-a-shadow-database-for-prisma-migrate
+  // make sure to append ?connect_timeout=10 to the connection string
+  // shadowDatabaseUrl = env(“SHADOW_DATABASE_URL”)
+}
+
+model User {
+  id    String @id @unique
+  email String @unique
+
+  File File[]
+
+  stripeCustomerId     String?   @unique @map(name: "stripe_customer_id")
+  stripeSubcriptionId  String?   @unique @map(name: "stripe_subritpion_id")
+  stripePriceId        String?   @map(name: "stripe_price_id")
+  stripeCurentPeriodId DateTime? @map(name: "stripe_current_period_id")
+}
+
+enum UploadStatus {
+  PENDING
+  PROCESSING
+  FAILED
+  SUCCESS
+}
+
+model File {
+  id           String       @unique @default(cuid())
+  name         String
+  uploadstatus UploadStatus @default(PENDING)
+
+  url String
+  key String
+
+  createdAT DateTime @default(now())
+  updateAt  DateTime @updatedAt
+  User      User?    @relation(fields: [userId], references: [id])
+  userId    String?
+}
