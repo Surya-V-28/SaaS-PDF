@@ -7,11 +7,8 @@ import { redirect } from "next/navigation";
 const page = async () => {
     const {getUser} = getKindeServerSession();
     const user = getUser();
-    if (!user || !user.id) redirect('/auth-callback?origin=dashboard');
-
-
+    if (!user|| !user.id) redirect('/auth-callback?origin=dashboard');
     // check if the user is logged with the databse 
-
     const dbUser = await db.user.findFirst(
       {
         where: {

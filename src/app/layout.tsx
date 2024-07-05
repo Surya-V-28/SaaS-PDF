@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import NavBar from '@/components/NavBar'
 import Providers from '@/components/Provider'
 import 'react-loading-skeleton/dist/skeleton.css'
+import 'simplebar-react/dist/simplebar.min.css'
 import { Toaster } from '@/components/ui/toaster'
 
 const inter = Inter({ subsets: ['latin'] })
