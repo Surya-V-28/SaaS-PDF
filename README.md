@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SaaS Platform
 
-## Getting Started
+A fully-featured SaaS application built from scratch using modern web technologies like **Next.js 13**, **React**, **Prisma**, **tRPC**, and **Tailwind CSS**. The platform includes robust authentication, real-time features, and clean UI components.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🛠️ **Complete SaaS Built From Scratch**: End-to-end SaaS platform with free and pro plans.
+- 💻 **Beautiful Landing & Pricing Pages**: Includes a visually appealing landing page and a pricing page for subscription options.
+- 🔒 **Authentication Using Kinde**: Secure and scalable user authentication with Kinde, including email verification.
+- 💳 **Free & Pro Plan Integration Using Stripe**: Payment processing and plan management for both free and premium features.
+- ⚡ **Infinite Message Loading**: Efficient message loading to improve performance and provide a smooth user experience.
+- 📄 **Functional PDF Viewer**: A highly functional and aesthetic PDF viewer.
+- 🔄 **Real-Time API Responses**: Streaming API responses for real-time updates.
+- 🎨 **Modern UI Using `shadcn-ui`**: Clean, modern UI design for a seamless user experience.
+- 🚀 **Optimistic UI Updates**: Optimistic UI updates ensure smooth user interactions and a great UX.
+- 📤 **Drag and Drop Uploads**: Intuitive file upload experience using drag-and-drop.
+- ✨ **Instant Loading States**: Quick feedback for actions with instant loading states.
+- 🔧 **Modern Data Fetching with tRPC & Zod**: Type-safe, modern data fetching with tRPC and Zod.
+- 🧠 **LangChain for AI Memory**: Integration with LangChain for infinite AI memory capabilities.
+- 🌲 **Pinecone as Vector Storage**: Pinecone as the vector database for efficient AI storage.
+- 📊 **Prisma ORM**: Prisma as the ORM for managing database queries.
+- 🔤 **100% TypeScript**: Entire application is written in TypeScript for type safety and better development experience.
+- 🗄️ **User Details Stored in Database**: User details are stored in the database using **Spring Boot** as the backend, with **JWT** enabled for secure authentication.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**: Next.js 13, React, Tailwind CSS, `shadcn-ui`
+- **Backend**: Spring Boot (with JWT for authentication), tRPC, Zod, Prisma
+- **Database**: PostgreSQL (via Prisma ORM)
+- **AI & Storage**: LangChain, Pinecone
+- **Authentication**: Kinde (with email verification), JWT for user authentication
+- **Payments**: Stripe
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🎨 UI/UX Features
 
-## Learn More
+- Modern, clean, and responsive design
+- Drag-and-drop file uploads
+- Real-time updates and notifications
+- Infinite message loading for enhanced performance
+- Optimistic UI updates for a seamless user experience
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
