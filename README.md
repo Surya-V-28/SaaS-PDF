@@ -22,6 +22,74 @@ A fully-featured SaaS application built from scratch using modern web technologi
 - 🔤 **100% TypeScript**: Entire application is written in TypeScript for type safety and better development experience.
 - 🗄️ **User Details Stored in Database**: User details are stored in the database using **Spring Boot** as the backend, with **JWT** enabled for secure authentication.
 
+## Landing Page
+![Landing Page](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/LandingPage.png)
+
+![Landing Page 2](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/landiingPage2.png)
+
+![Landing Page 3](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/lannd3.png)
+
+![Landing Page 4](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/landing4.png)
+
+## Sign Up and Login
+![Auth Page ](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/authKindle.png)
+
+![Auth Page 2](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/verifications.png)
+
+
+## Stripe Payment Gateway
+
+![Payment Page 1](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/pricing.png)
+
+
+## Dashboard 
+![Dashboard Page ](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/dashboard.png)
+
+## Pdf Functions Questioning and chats
+![pdf Page 1 ](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/pdfuploading.png)
+
+![pdf Page 2 ](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/pdfcahtings.png)
+
+![pdf Page 3 ](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/pdfcahtings.png)
+
+![pdf Page 4](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/Q1.png)
+
+![pdf Page 5 ](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/Q2.png)
+
+
+## pdf Function rotate and Zoom
+
+![pdf function 1 ](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/fullviewofPDF.png)
+
+![pdf function 2 ](https://github.com/Surya-V-28/SaaS-PDF/blob/main/readmeImages/pdfwithrotateandzoom.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js 13, React, Tailwind CSS, `shadcn-ui`
